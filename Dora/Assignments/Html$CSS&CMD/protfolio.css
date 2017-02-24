@@ -1,0 +1,142 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+  background-color: #2A2A2A;
+
+
+}
+#head{
+  background-color: silver;
+  width: 100%;
+  font-size: 12px;
+  padding: 20px;
+}
+
+#head h1, p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#head p {
+  float: right;
+}
+
+.inner_container {
+  padding: 20px;
+}
+
+.photo_of_me {
+  height: 250px;
+  border: 5px solid silver;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.about_box {
+  height: 250px;
+  background-color: silver;
+  display: inline-block;
+  width: 58%;
+}
+
+.about_box h2 {
+  background-color: grey;
+  opacity: 0.5;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.about_box p, a {
+  font-size: 17px;
+  padding: 0 10px;
+}
+
+.about_box a {
+  color: black;
+}
+
+.first_p {
+  margin-bottom: 10px;
+}
+
+#content{
+  width: 100px;
+  display: inline-block;
+  height: 100px;
+  margin: 50px;
+
+}
+#main{
+  margin-top: 20px;
+}
+
+.sub {
+  width:32.333%;
+  background-color: silver;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sub h2, h3 {
+  padding: 0 10px;
+  background-color: grey;
+  color: white;
+}
+.sub p {
+  padding: 0 10px;
+  font-size: 17px;
+  height: 200px;
+}
+.blog_img {
+  width: 310px;
+}
+
+.tech {
+  padding:10px;
+}
+.tech img {
+  width: 50px;
+  margin-right: 3px;
+}
+.btn{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: 1px solid silver;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+  padding: 5px 15px;
+}
+
+footer{
+   text-align: center;
+   background-color: silver;
+   padding: 5px;
+}
+a{
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+}
+.info img {
+  width: 30px;
+}
+h4{
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+}
